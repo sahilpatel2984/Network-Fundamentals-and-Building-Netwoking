@@ -1,0 +1,151 @@
+**Assignment: Module-5
+
+Network Fundamentals and Building Networks**
+
+Section 1: Multiple Choice Questions
+
+1. What is the primary function of a router in a computer network?
+✅ c) Forwarding data packets between networks
+
+2. What is the purpose of DHCP (Dynamic Host Configuration Protocol) in a computer network?
+✅ d) Dynamically assigning IP addresses to devices
+
+3. Which network device operates at Layer 2 (Data Link Layer) of the OSI model and forwards data packets based on MAC addresses?
+✅ b) Switch
+
+4. Which network topology connects all devices in a linear fashion, with each device connected to a central cable or backbone?
+✅ b) Bus
+
+Section 2: True or False
+
+5. A VLAN (Virtual Local Area Network) allows network administrators to logically segment a single physical network into multiple virtual networks, each with its own broadcast domain.
+✅ True
+
+6. TCP (Transmission Control Protocol) is a connectionless protocol that provides reliable, ordered, and error-checked delivery of data packets over a network.
+❌ False
+(TCP is connection-oriented, not connectionless.)
+
+7. A firewall is a hardware or software-based security system that monitors and controls incoming and outgoing network traffic based on predetermined security rules.
+✅ True
+
+Section 3: Descriptive Question
+8. Describe the steps involved in setting up a wireless network for a small office or home office (SOHO) environment.
+
+Answer:
+
+Choose a Wireless Router
+Select a router that supports modern security standards like WPA2 or WPA3.
+
+Connect the Router to ISP Modem
+Use an Ethernet cable to connect the router’s WAN port to the modem.
+
+Power On Devices
+Turn on the modem first, then the router.
+
+Access Router Configuration Page
+Open a web browser and enter the router’s IP address (e.g., 192.168.1.1).
+
+Configure Internet Settings
+Set up internet connection details provided by the ISP.
+
+Set Wireless Network Name (SSID)
+Assign a unique name to your Wi-Fi network.
+
+Enable Wireless Security
+Use WPA2/WPA3 encryption and set a strong Wi-Fi password.
+
+Enable DHCP
+Allow the router to automatically assign IP addresses to connected devices.
+
+Connect Devices
+Connect laptops, mobiles, and printers using the Wi-Fi credentials.
+
+Test the Network
+Check internet access and signal strength on all devices.
+
+
+. Demonstrate how to configure a router for Internet access using DHCP
+
+Answer:
+
+To configure a router for Internet access using DHCP, follow these steps:
+
+Connect the Hardware
+
+Connect the ISP modem to the router’s WAN (Internet) port using an Ethernet cable.
+
+Power ON the modem first, then the router.
+
+Connect a Computer to the Router
+
+Use an Ethernet cable or connect via Wi-Fi to the router.
+
+Access Router Configuration Page
+
+Open a web browser.
+
+Enter the router’s default IP address (e.g., 192.168.1.1 or 192.168.0.1).
+
+Login using the default username and password.
+
+Configure WAN / Internet Settings
+
+Go to Internet Setup / WAN Settings.
+
+Select Dynamic IP (DHCP) as the Internet connection type.
+
+Save the settings.
+
+Enable DHCP Server (LAN Side)
+
+Navigate to LAN or Network Settings.
+
+Enable DHCP Server.
+
+Set IP address range (e.g., 192.168.1.100 – 192.168.1.200).
+
+Save and apply changes.
+
+Restart the Router
+
+Reboot the router to apply the new configuration.
+
+Verify Internet Connection
+
+Check router status page to confirm a public IP is assigned.
+
+Open a website to verify internet access.
+
+
+
+10. Discuss the importance of network documentation in the context of building and managing networks
+
+Answer:
+
+Network documentation is the process of recording detailed information about a network’s design, configuration, devices, and policies. It plays a crucial role in both building and managing computer networks.
+
+Importance of Network Documentation:
+
+Efficient Network Design and Planning
+Documentation helps network administrators understand the existing network structure, making it easier to plan upgrades, expansions, or changes.
+
+Faster Troubleshooting and Maintenance
+When network issues occur, documented IP addressing, device configurations, and topology diagrams help identify and resolve problems quickly.
+
+Improved Network Security
+Documentation records firewall rules, access controls, and security policies, helping administrators detect misconfigurations and security risks.
+
+Consistency and Standardization
+It ensures consistent configuration of devices such as routers, switches, and access points, reducing configuration errors.
+
+Knowledge Sharing and Training
+New administrators can easily understand the network using documentation, reducing dependency on a single person.
+
+Disaster Recovery and Business Continuity
+In case of hardware failure or cyber-attack, documented backups and configurations allow faster network restoration.
+
+Compliance and Auditing
+Many organizations require proper documentation to meet regulatory and audit requirements.
+
+Cost and Time Savings
+Clear documentation minimizes downtime and reduces unnecessary troubleshooting costs.
